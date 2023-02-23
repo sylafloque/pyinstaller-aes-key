@@ -7,7 +7,7 @@ python
 import os
 from cryptography.fernet import Fernet
 
-# Génération d'une clé de chiffrement aléatoire
+/# Génération d'une clé de chiffrement aléatoire
 key = Fernet.generate_key()
 
 # Enregistrement de la clé dans un fichier local
