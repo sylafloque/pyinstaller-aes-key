@@ -46,4 +46,4 @@ decrypted_data = fernet.decrypt(encrypted_data)
 with open('my_script_decrypted', 'wb') as f:
     f.write(decrypted_data)
 ```
-Cet exemple utilise la même méthode de chiffrement que l'exemple 4 précédent, mais il est appliqué à un exécutable PyInstaller plutôt qu'à un simple script Python.
+Cet exemple utilise la même méthode de chiffrement, mais il est appliqué à un exécutable PyInstaller plutôt qu'à un simple script Python.
