@@ -2,7 +2,7 @@
 
     Tout d'abord, générez une clé de chiffrement et enregistrez-la dans un fichier :
 
-
+```
 import os
 from cryptography.fernet import Fernet
 
@@ -12,7 +12,7 @@ key = Fernet.generate_key()
 /# Enregistrement de la clé dans un fichier local
 with open('my_key.key', 'wb') as f:
     f.write(key)
-
+```
     Ensuite, utilisez PyInstaller pour créer un exécutable à partir de votre script Python :
 
 
