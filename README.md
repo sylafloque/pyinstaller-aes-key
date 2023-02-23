@@ -13,13 +13,13 @@ key = Fernet.generate_key()
 with open('my_key.key', 'wb') as f:
     f.write(key)
 ```
-    Ensuite, utilisez PyInstaller pour créer un exécutable à partir de votre script Python :
+    Ensuite, utilisez PyInstaller pour créer un exécutable à partir de votre script Python
 
 ```
 pyinstaller --onefile --key=my_key.key my_script.py
 ```
 
-    Après la création de l'exécutable, vous pouvez chiffrer son contenu avec la clé que vous avez générée :
+    Après la création de l'exécutable, vous pouvez chiffrer son contenu avec la clé que vous avez générée
 
 ```
 import base64
